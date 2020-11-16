@@ -1,5 +1,7 @@
-# quiz3
+# Fractions in C++
 Fractions Class for C++
+
+_A journey in operator overloading._
 
 A little example of my code for CSIS137 Intro to Advanced C++.
 
