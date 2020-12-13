@@ -11,6 +11,7 @@ public:
     Fraction(int n, int d);
     void setNumer(int);
     void setDenom(int);
+    double displayFloat() const;
     bool operator==(const Fraction&);
     bool operator<(const Fraction&);
     bool operator>(const Fraction&);

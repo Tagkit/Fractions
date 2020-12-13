@@ -40,5 +40,13 @@ int main() {
          << ratio_of_turtles + ratio_of_eggs << endl;
     cout << "The fraction of eggs hatched minus nests that survived is: "
          << ratio_of_eggs - ratio_of_turtles << endl;
+    cout << "The fraction of nests multiplied by eggs hatched is: " 
+        << ratio_of_turtles * ratio_of_eggs << endl;
+    cout << "The fraction of eggs divided by the number of nests is: "
+        << ratio_of_eggs * ratio_of_turtles << endl;
+    cout << "The decimal form of nests that survived to nests made is: "
+        << ratio_of_turtles.displayFloat() << endl;
+    cout << "The decimal form of eggs laid vs egss that survived is: "
+        << ratio_of_eggs.displayFloat() << endl;
     return 0;
 }

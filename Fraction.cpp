@@ -44,6 +44,9 @@ void Fraction::setDenom(int d) {
     numer = numer / gcf;
     denom = d / gcf;
 }
+double Fraction::displayFloat() const {
+    return (double)numer / denom;
+}
 bool Fraction::operator==(const Fraction& frac) {
     if (numer == frac.numer && denom==frac.denom) {
         return true;
